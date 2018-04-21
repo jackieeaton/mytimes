@@ -42,23 +42,32 @@ a {
   margin-right: 12px;
 }
 
-/* Content Section */
+/* Main Content Section */
+
+div {
+    border: 1px solid black;
+}
 
 .content {
   display: flex;
   padding-top: 120px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column.large {
   display: flex;
   flex-direction: column;
   width: 630px;
+  margin-right: 32px;
 }
 
 .column.medium {
   display: flex;
   flex-direction: column;
   width: 300px;
+  margin-right: 32px;
 }
 
 .column.small {
@@ -67,12 +76,7 @@ a {
   width: 240px;
 }
 
-.article {
-  border: 1px solid black;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
+/* Image Content */
 
 .image-content {
   height: 300px;
@@ -80,9 +84,24 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+  margin-top: 16px;
 }
 
 .main-story .image-content {
   font-size: 40px;
+  margin-top: 0;
   background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-main.png);
+}
+
+.earth.image-content {
+  background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-2.png);
+}
+
+.research.image-content {
+  background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-3.png);
+}
+
+.cats.image-content {
+  background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-1.png);
 }
