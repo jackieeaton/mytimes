@@ -41,3 +41,48 @@ a {
 .logo img {
   margin-right: 12px;
 }
+
+/* Content Section */
+
+.content {
+  display: flex;
+  padding-top: 120px;
+}
+
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.article {
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content {
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.main-story .image-content {
+  font-size: 40px;
+  background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-main.png);
+}
