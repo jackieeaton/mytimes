@@ -1,3 +1,5 @@
+/* Header Section */
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -12,12 +14,9 @@ header {
   border-bottom: 1px solid black;
 }
 
-nav {
-  display: block;
-}
-
 header nav {
-  padding-right: 40px;
+  position: absolute;
+  right: 40px;
 }
 
 nav span {
