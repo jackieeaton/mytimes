@@ -44,10 +44,6 @@ a {
 
 /* Main Content Section */
 
-div {
-    border: 1px solid black;
-}
-
 .content {
   display: flex;
   padding-top: 120px;
@@ -112,14 +108,17 @@ div {
 /* Image Content */
 
 .image-content {
+  display: flex;
   height: 300px;
   justify-content: center;
+  align-items: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
   margin-top: 16px;
+  padding: 0px 24px;
 }
 
 .main .image-content {
