@@ -56,6 +56,23 @@ div {
   color: black;
 }
 
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.news-bites .bite {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 12px 24px;
+}
+
 .column.large {
   display: flex;
   flex-direction: column;
@@ -76,10 +93,27 @@ div {
   width: 240px;
 }
 
+/* Story Content */
+
+.stories {
+  display: flex;
+  flex-direction: row;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  margin-top: 16px;
+}
+
 /* Image Content */
 
 .image-content {
   height: 300px;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -88,13 +122,14 @@ div {
   margin-top: 16px;
 }
 
-.main-story .image-content {
+.main .image-content {
   font-size: 40px;
+  text-align: left;
   margin-top: 0;
   background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-main.png);
 }
 
-.earth.image-content {
+.earth-spins.image-content {
   background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-2.png);
 }
 
@@ -104,4 +139,35 @@ div {
 
 .cats.image-content {
   background-image: url(/Users/jackieeaton/Dropbox/DevProjects/mytimes/resources/images/img-story-1.png);
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 352px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-content .mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 24px;
+}
+
+.footer-content .link {
+  padding-left: 16px;
+}
+
+.footer-content .copyright {
+  text-align: center;
+  padding-top: 16px;
 }
